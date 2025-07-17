@@ -13,9 +13,12 @@ export default defineNuxtConfig({
     define: {
       'process.env.DEBUG': false,
     },
+
   },
 
   app: {
+
+        baseURL: '/twitter/',
     head: {
       link: [
         {
