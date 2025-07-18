@@ -1,10 +1,28 @@
+
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  ssr: false,
+
+   ssr: false, 
+
+  modules: ['@pinia/nuxt'],
+  css: ['vuetify/styles', '~/assets/styles.scss'],
+  build: {
+    transpile: ['vuetify'],
+  },
+
+ plugins: ['~/plugins/vuetify.ts'],
+  vite: {
+    define: {
+      'process.env.DEBUG': false,
+    },
+
+  },
 
   app: {
-    baseURL: '/twitter/',
+
+        baseURL: '/twitter/',
+       
     head: {
       link: [
         {
@@ -13,33 +31,7 @@ export default defineNuxtConfig({
         },
       ],
     },
-  },
-
-  modules: ['@pinia/nuxt'],
-  css: ['vuetify/styles', '~/assets/styles.scss'],
-  plugins: ['~/plugins/vuetify.ts'],
-
-  build: {
-    transpile: ['vuetify'],
-  },
-
-  vite: {
-    define: {
-      'process.env.DEBUG': false,
-    },
-  },
-
- 
-  nitro: {
-    output: {
-      publicDir: './docs', 
-    },
-  },
-
-
-  routeRules: {
-    '/**': { static: true },
-  },
+   },
 })
 
 
