@@ -1,10 +1,10 @@
 export default {
-  "_Bxg_y31t.js": {
+  "_CGC6Em15.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bxg_y31t.js",
+    "file": "CGC6Em15.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,20 +15,20 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BuZ1bUd5.js",
+    "file": "BOiv4d2A.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Bxg_y31t.js"
+      "_CGC6Em15.js"
     ],
     "css": [
-      "error-404.4oxyXxx0.css"
+      "error-404.DbSSrwPL.css"
     ]
   },
-  "error-404.4oxyXxx0.css": {
-    "file": "error-404.4oxyXxx0.css",
+  "error-404.DbSSrwPL.css": {
+    "file": "error-404.DbSSrwPL.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -38,20 +38,20 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DHZAK4mq.js",
+    "file": "DOGaALOd.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Bxg_y31t.js"
+      "_CGC6Em15.js"
     ],
     "css": [
-      "error-500.CZqNkBuR.css"
+      "error-500.DZRj88qG.css"
     ]
   },
-  "error-500.CZqNkBuR.css": {
-    "file": "error-500.CZqNkBuR.css",
+  "error-500.DZRj88qG.css": {
+    "file": "error-500.DZRj88qG.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -61,7 +61,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BNzSyHzm.js",
+    "file": "B16T7zce.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -84,7 +84,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CBcG187W.js",
+    "file": "BBLom9Yb.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
