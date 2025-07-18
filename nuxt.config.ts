@@ -2,6 +2,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+
+   ssr: false, 
   
   modules: ['@pinia/nuxt'],
   css: ['vuetify/styles', '~/assets/styles.scss'],
