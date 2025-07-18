@@ -1,10 +1,10 @@
 export default {
-  "_CGC6Em15.js": {
+  "_9AVOQoh7.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CGC6Em15.js",
+    "file": "9AVOQoh7.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,13 +15,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BOiv4d2A.js",
+    "file": "DtsxkGGq.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CGC6Em15.js"
+      "_9AVOQoh7.js"
     ],
     "css": [
       "error-404.DbSSrwPL.css"
@@ -38,13 +38,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DOGaALOd.js",
+    "file": "BCh_6UPc.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CGC6Em15.js"
+      "_9AVOQoh7.js"
     ],
     "css": [
       "error-500.DZRj88qG.css"
@@ -61,7 +61,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B16T7zce.js",
+    "file": "j7QLQUft.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -84,7 +84,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BBLom9Yb.js",
+    "file": "gVCpE0w3.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
@@ -92,11 +92,11 @@ export default {
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [
-      "index.CYIPphUe.css"
+      "index.DQ9ZImaf.css"
     ]
   },
-  "index.CYIPphUe.css": {
-    "file": "index.CYIPphUe.css",
+  "index.DQ9ZImaf.css": {
+    "file": "index.DQ9ZImaf.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
