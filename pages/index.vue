@@ -37,7 +37,7 @@ const tweets = ref<Tweet[]>([
     id: 1,
     author: 'Mehtap Sevinç',
     handle: 'mehtapp',
-    avatar: '/twitter/images/bihter.jpg',
+    avatar: '/images/bihter.jpg',
     content: 'mutluluk yolun sonunda değil yolun üzerindedir :)',
     image: '',
     createdAt: new Date().toISOString(),
