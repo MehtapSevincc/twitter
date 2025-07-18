@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 
    app:{
     baseURL:'/twitter/',
-
+    buildAssetsDir:'assets',
      head: {
       link: [
         {
