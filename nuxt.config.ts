@@ -6,7 +6,7 @@ export default defineNuxtConfig({
    ssr: false, 
 
    app:{
-    baseURL:'/twitter/',
+    baseURL:'/',
     buildAssetsDir:'assets',
      head: {
       link: [
@@ -34,11 +34,6 @@ export default defineNuxtConfig({
 
   },
 
- nitro: {
-    output: {
-      publicDir: './docs', 
-    },
-  },
 
   routeRules: {
     '/**': { static: true }, 
