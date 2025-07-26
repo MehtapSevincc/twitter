@@ -17,7 +17,9 @@
       </div>
       <CommentInput v-if="showComment"
        :tweet="tweet" 
-       @comment="addComment"/>
+       @comment="addComment"
+       @click.stop
+       />
 
 <ul v-if=" showComment &&tweet.comments.length" class="comment-list">
   <li v-for="(comment, index) in tweet.comments" :key="index">
