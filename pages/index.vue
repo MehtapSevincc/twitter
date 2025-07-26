@@ -31,9 +31,14 @@ interface Tweet {
   likes: number
   comments: any[]
 }
+const storedTweets=localStorage.getItem('tweets')
+const tweets=ref<Tweet[]>(storedTweets ? JSON.parse(storedTweets):[])
 
-const tweets = ref<Tweet[]>([
+if(!storedTweets)
   {
+   tweets.value = [
+    {
+   
     id: 1,
     author: 'Mehtap Sevinç',
     handle: 'mehtapp',
@@ -44,10 +49,12 @@ const tweets = ref<Tweet[]>([
     likes: 0,
     comments: []
   }
-])
+   ]
+  localStorage.setItem('tweets', JSON.stringify(tweets.value))
+}
 
 function addTweet(content: string) {
-  tweets.value.unshift({
+  const newTweet: Tweet = {
     id: Date.now(),
     author: 'Abdullah Türkmen',
     handle: 'abdullah',
@@ -56,7 +63,9 @@ function addTweet(content: string) {
     createdAt: new Date().toISOString(),
     likes: 0,
     comments: []
-  })
+  }
+  tweets.value.unshift(newTweet)
+  localStorage.setItem('tweets',JSON.stringify(tweets.value))
 }
 </script>
 

@@ -13,28 +13,43 @@
 const trends = ['OpenAI', 'Nuxt3', 'Vuetify', 'WebDev', 'Türkiye']
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+$primary-color: #1da1f2;
+$trend-bg: #f8f8f8;
+$border-color:#e6ecf0;
+
 .trends {
   flex: 1;
   padding: 20px;
-  background: #f8f8f8;
+  background: $trend-bg;
   max-width: 300px;
-  border-left: 1px solid #e6ecf0;
-}
-.trends-inner h3 {
+  border-left: 1px solid $border-color;
+
+.trends-inner{
+ h3 {
   margin-bottom: 12px;
   font-size: 18px;
 }
-.trends-inner ul {
+
+
+ ul {
   list-style: none;
   padding: 0;
-}
-.trends-inner li {
+
+ li {
   padding: 8px 0;
   cursor: pointer;
   color: #1da1f2;
-}
-.trends-inner li:hover {
+
+
+&:hover {
   text-decoration: underline;
+}
+
+}
+
+}
+
+}
 }
 </style>

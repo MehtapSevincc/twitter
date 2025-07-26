@@ -21,16 +21,20 @@ function submit() {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+$primary-color:#1da1f2;
+$border-color:#e6ecf0;
+$background-white:#fff;
+
 .tweet-form {
-  background: #fff;
+  background: $background-white;
   padding: 16px;
   border-radius: 12px;
-  border: 1px solid #e6ecf0;
+  border: 1px solid $border-color;
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
+
 textarea {
   width: 100%;
   resize: none;
@@ -46,6 +50,13 @@ button {
   border: none;
   border-radius: 20px;
   cursor: pointer;
+
+&:hover{
+  background: darken($primary-color,7%);
 }
+}
+
+}
+
 </style>
 

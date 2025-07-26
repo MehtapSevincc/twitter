@@ -12,29 +12,40 @@
   </aside>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+$primary-color :#1da1f2;
+$border-color: #e6ecf0;
+$sidebar-bg: #fff;
+
 .sidebar {
   flex: 1;
   padding: 20px;
-  background: #fff;
+  background:$sidebar-bg;
   max-width: 250px;
-  border-right: 1px solid #e6ecf0;
+  border-right: 1px solid $border-color;
   display: flex;
   flex-direction: column;
-}
-.sidebar ul {
+
+ ul {
   list-style: none;
   padding: 0;
   flex-grow: 1;
-}
-.sidebar li {
+
+   li {
   display: flex;
   align-items: center;
   gap: 12px;
   font-weight: 600;
   padding: 12px 0;
   cursor: pointer;
+
+  &:hover {
+    background-color: lighten($primary-color,42%);
+
+  }
 }
+}
+
 .tweet-button {
   background: #1da1f2;
   color: white;
@@ -44,5 +55,12 @@
   font-weight: bold;
   cursor: pointer;
   width: 100%;
+
+  &:hover{
+    background-color: darken($primary-color, 5%);
+  }
 }
+
+}
+
 </style>

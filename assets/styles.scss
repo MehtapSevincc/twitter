@@ -1,6 +1,16 @@
+$font-family-base: 'Segoe UI', sans-serif;
+$background-main:#e6ecf0;
+
+
+
+
+
+
+
+
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #e6ecf0;
+  font-family: $font-family-base;
+  background: $background-main;
   margin: 0;
   padding: 0;
 }
